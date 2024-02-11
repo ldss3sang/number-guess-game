@@ -8,7 +8,6 @@ const play = () => {
 
   if (userValue < computerNum) {
     resultArea.textContent = "UP~!";
-    console.log("Up~!!");
   } else if (userValue > computerNum) {
     resultArea.textContent = "Down~!";
   } else {
